@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 
-def ee_authenticate(token_name="hopeful-keep-469909-p9"):
+def ee_authenticate(token_name="4/1AVGzR1DpwdhO5TGeyrpRF1vq7f_MKVxSKfztQ9GetfrJeh4dDqIFGI0knPs"):
     geemap.ee_initialize(token_name=token_name)
 
 
@@ -113,5 +113,6 @@ with col2:
 with col1:
 
     Map.to_streamlit(height=1000)
+
 
 
