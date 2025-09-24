@@ -14,7 +14,7 @@ st.sidebar.info(
 st.sidebar.title("Contact")
 st.sidebar.info(
     """
-    Nabidnur-abrar,linkdin:www.linkedin.com/in/nabidnur-abrar-6696562b9,youtube:https://www.youtube.com/@Team_BlackBox
+    Nabidnur-abrar at linkdin:[www.linkedin.com/in/nabidnur-abrar-6696562b9] || youtube:[https://www.youtube.com/@Team_BlackBox]
     """
 )
 
@@ -56,4 +56,5 @@ with row1_col1:
 with row1_col2:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/fire.gif")
+
 
