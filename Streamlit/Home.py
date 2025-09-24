@@ -7,14 +7,14 @@ st.sidebar.title("About")
 st.sidebar.info(
     """
     - Web App URL: <https://streamlit.gishub.org>
-    - GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    - GitHub repository:<https://github.com/Hisernberg/verdent.git>
     """
 )
 
 st.sidebar.title("Contact")
 st.sidebar.info(
     """
-    Qiusheng Wu at [wetlands.io](https://wetlands.io) | [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/@giswqs) | [LinkedIn](https://www.linkedin.com/in/giswqs)
+    Nabidnur-abrar,linkdin:www.linkedin.com/in/nabidnur-abrar-6696562b9,youtube:https://www.youtube.com/@Team_BlackBox
     """
 )
 
@@ -22,7 +22,7 @@ st.sidebar.title("Support")
 st.sidebar.info(
     """
     If you want to reward my work, I'd love a cup of coffee from you. Thanks!
-    [buymeacoffee.com/giswqs](http://buymeacoffee.com/giswqs)
+
     """
 )
 
@@ -33,8 +33,8 @@ st.markdown(
     """
     This multi-page web app demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and open-source mapping libraries, 
     such as [leafmap](https://leafmap.org), [geemap](https://geemap.org), [pydeck](https://deckgl.readthedocs.io), and [kepler.gl](https://docs.kepler.gl/docs/keplergl-jupyter).
-    This is an open-source project and you are very welcome to contribute your comments, questions, resources, and apps as [issues](https://github.com/giswqs/streamlit-geospatial/issues) or 
-    [pull requests](https://github.com/giswqs/streamlit-geospatial/pulls) to the [GitHub repository](https://github.com/giswqs/streamlit-geospatial).
+    This is an open-source project and you are very welcome to contribute your comments, questions, resources, and apps as [issues](https://github.com/Hisernberg/verdent.git/issues) or 
+    [pull requests](https://github.com/Hisernberg/verdent/pulls) to the [GitHub repository](https://github.com/Hisernberg/verdent.git).
 
     """
 )
@@ -56,3 +56,4 @@ with row1_col1:
 with row1_col2:
     st.image("https://github.com/giswqs/data/raw/main/timelapse/goes.gif")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/fire.gif")
+
