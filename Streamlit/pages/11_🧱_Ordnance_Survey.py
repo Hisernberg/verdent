@@ -6,17 +6,18 @@ import folium.plugins as plugins
 
 st.set_page_config(layout="wide")
 
+st.sidebar.title("About")
 st.sidebar.info(
     """
     - Web App URL: <https://streamlit.gishub.org>
-    - GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    - GitHub repository:<https://github.com/Hisernberg/verdent.git>
     """
 )
 
 st.sidebar.title("Contact")
 st.sidebar.info(
     """
-    Qiusheng Wu at [wetlands.io](https://wetlands.io) | [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/@giswqs) | [LinkedIn](https://www.linkedin.com/in/giswqs)
+    Nabidnur-abrar at linkdin:[www.linkedin.com/in/nabidnur-abrar-6696562b9] || youtube:[https://www.youtube.com/@Team_BlackBox]
     """
 )
 
@@ -106,3 +107,4 @@ if checkbox:
 
 m.split_map(left_layer, right_layer)
 m.to_streamlit(height=600)
+
