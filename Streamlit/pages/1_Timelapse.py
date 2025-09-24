@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 
 @st.cache_data
-def ee_authenticate(token_name="EARTHENGINE_TOKEN"):
+def ee_authenticate(token_name="hopeful-keep-469909-p9"):
     geemap.ee_initialize(token_name=token_name)
 
 
@@ -1533,4 +1533,5 @@ try:
     app()
 except Exception as e:
     pass
+
 
